@@ -18,8 +18,8 @@ namespace CrudNet8MVC.Models
 
         [Required(ErrorMessage = "El Email es obligatorio")]
         public String Email { get; set; }
-        
-        public DateTime Fechacreacion { get; set; }
 
+        [Required]
+        public DateTime FechaCreacion { get; set; } = DateTime.Now;
     }
 }

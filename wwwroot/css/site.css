@@ -20,3 +20,17 @@ html {
 body {
   margin-bottom: 60px;
 }
+
+/* Estilo para los botones con iconos */
+.icon-button {
+    color: white; /* Color del texto igual al color del botón */
+    background-color: #007bff; /* Color de fondo del botón */
+    border-color: #007bff; /* Color del borde del botón */
+}
+
+/* Cambiar el color del texto al pasar el ratón por encima */
+.icon-button:hover {
+    color: white; /* Color del texto al pasar el ratón por encima */
+    background-color: #0056b3; /* Cambiar el color de fondo al pasar el ratón por encima */
+    border-color: #0056b3; /* Cambiar el color del borde al pasar el ratón por encima */
+}
