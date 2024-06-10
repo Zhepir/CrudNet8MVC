@@ -10,8 +10,8 @@ namespace CrudNet8MVC.Models
         [Required (ErrorMessage ="El nombre es obligatorio")]
         public String Nombre { get; set; }
 
-        [Required(ErrorMessage = "El Telefono es obligatorio")]
-        public String Telefono { get; set; }
+        [Required(ErrorMessage = "El Apellido es obligatorio")]
+        public String Apellido { get; set; }
 
         [Required(ErrorMessage = "El Celular es obligatorio")]
         public String Celular { get; set; }
@@ -21,5 +21,7 @@ namespace CrudNet8MVC.Models
 
         [Required]
         public DateTime FechaCreacion { get; set; } = DateTime.Now;
+
+        public List<DateTime> FechasEdicion {  get; set; } = new List<DateTime>();
     }
 }
